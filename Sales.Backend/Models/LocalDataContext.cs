@@ -1,10 +1,9 @@
 ﻿
 namespace Sales.Backend.Models
 {
-
-    using Domain.Models;
-    using Common.Models;
+    
     using System.Data.Entity;
+    using Sales.Domain.Models;
 
     public class LocalDataContext:DataContext
     {

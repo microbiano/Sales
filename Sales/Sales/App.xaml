@@ -6,8 +6,15 @@ xmlns:infra="clr-namespace:Sales.Infrastructure"
     <Application.Resources>
 
         <ResourceDictionary>
+            
             <!--Locato-->
             <infra:InstanceLocator x:Key="Locator"/>
+
+            <!--Parameters-->
+            <x:String x:Key="UrlAPI">https://salesapi2018123.azurewebsites.net</x:String>
+            <x:String x:Key="UrlPrefix">/api</x:String>
+            <x:String x:Key="UrlProductsController">/Products</x:String>
+
 
         </ResourceDictionary>
 
