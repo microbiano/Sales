@@ -36,7 +36,7 @@ namespace Sales.Common.Models
             {
                 if (string.IsNullOrEmpty(this.ImagePath))
                 {
-                    return null;
+                   return "noproduct";
                 }
 
                 return $"https://salesbackend20181229125152.azurewebsites.net/{this.ImagePath.Substring(1)}";
